@@ -16,5 +16,10 @@ namespace TTT
         {
             InitializeComponent();
         }
+
+        private void PlayerGameForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
