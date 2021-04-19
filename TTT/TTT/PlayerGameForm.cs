@@ -15,11 +15,19 @@ namespace TTT
         public PlayerGameForm()
         {
             InitializeComponent();
+
         }
 
         private void PlayerGameForm_Load(object sender, EventArgs e)
         {
+            Game game = new Game();
+            game.SwitchPlayer(1);
+            Update();
+        }
 
+        private void Update()
+        {
+            
         }
     }
 }

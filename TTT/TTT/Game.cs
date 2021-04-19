@@ -8,6 +8,7 @@ namespace TTT
 {
     class Game
     {
+        int gamePlayer;
         int[,] Board = new int[,]
         {
             {0,0,0},
@@ -17,14 +18,19 @@ namespace TTT
 
         public int CheckPlayer()
         {
-            int player = 0;
-
-            return player;
+           if(gamePlayer == 1)
+           {
+               return 2;
+           }
+           else 
+            return 1;
         }
 
-        public void SwitchPlayer() 
+        public void SwitchPlayer(int player) 
         {
+            
 
+            gamePlayer = player;
         }
         
         public int CheckGameState() //checks for wins
