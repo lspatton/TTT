@@ -16,5 +16,17 @@ namespace TTT
         {
             InitializeComponent();
         }
+
+        private void HumanGameBtn_Click(object sender, EventArgs e)
+        {
+            var m = new PlayerGameForm();
+            m.Show();
+        }
+
+        private void AiGameBtn_Click(object sender, EventArgs e)
+        {
+            var m = new AiGameForm();
+            m.Show();
+        }
     }
 }

@@ -50,6 +50,7 @@
             this.HumanGameBtn.TabIndex = 1;
             this.HumanGameBtn.Text = "PlayerVsPlayer";
             this.HumanGameBtn.UseVisualStyleBackColor = true;
+            this.HumanGameBtn.Click += new System.EventHandler(this.HumanGameBtn_Click);
             // 
             // AiGameBtn
             // 
@@ -59,6 +60,7 @@
             this.AiGameBtn.TabIndex = 2;
             this.AiGameBtn.Text = "PlayerVsAi";
             this.AiGameBtn.UseVisualStyleBackColor = true;
+            this.AiGameBtn.Click += new System.EventHandler(this.AiGameBtn_Click);
             // 
             // Form1
             // 
